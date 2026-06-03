@@ -5,6 +5,9 @@
   "references": [
     {
       "path": "./apps/app-a"
+    },
+    {
+      "path": "./apps/app-b"
     }
   ]
 }

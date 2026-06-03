@@ -138,6 +138,8 @@ importers:
 
   apps/app-a: {}
 
+  apps/app-b: {}
+
 packages:
 
   '@alloc/quick-lru@5.2.0':
