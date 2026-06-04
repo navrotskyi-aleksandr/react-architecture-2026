@@ -8,6 +8,9 @@
     },
     {
       "path": "./apps/app-b"
+    },
+    {
+      "path": "./packages/shared/ui"
     }
   ]
 }

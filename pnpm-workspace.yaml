@@ -1,8 +1,11 @@
 packages:
   - 'apps/*'
-
+  - 'packages/shared/*'
 allowBuilds:
   '@swc/core': true
   nx: true
-
 autoInstallPeers: true
+catalog:
+  react: '^19.0.0'
+  react-dom: '^19.0.0'
+  react-router-dom: '6.30.3'
