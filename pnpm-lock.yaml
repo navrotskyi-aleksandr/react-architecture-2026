@@ -164,6 +164,8 @@ importers:
 
   packages/shared/ui: {}
 
+  packages/shared/util: {}
+
 packages:
 
   '@alloc/quick-lru@5.2.0':
