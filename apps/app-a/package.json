@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "@react-architecture-2026/shared-ui": "workspace:*"
+    "@react-architecture-2026/shared-ui": "workspace:*",
+    "@react-architecture-2026/shared-config-theme": "workspace:*"
   },
   "nx": {
     "targets": {

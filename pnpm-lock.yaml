@@ -159,11 +159,20 @@ importers:
 
   apps/app-a:
     dependencies:
+      '@react-architecture-2026/shared-config-theme':
+        specifier: workspace:*
+        version: link:../../packages/shared/config/theme
       '@react-architecture-2026/shared-ui':
         specifier: workspace:*
         version: link:../../packages/shared/ui
 
-  apps/app-b: {}
+  apps/app-b:
+    dependencies:
+      '@react-architecture-2026/shared-config-theme':
+        specifier: workspace:*
+        version: link:../../packages/shared/config/theme
+
+  packages/shared/config/theme: {}
 
   packages/shared/ui: {}
 

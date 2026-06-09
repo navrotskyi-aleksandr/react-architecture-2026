@@ -1,0 +1,13 @@
+{
+  "name": "@react-architecture-2026/shared-config-theme",
+  "version": "0.0.1",
+  "private": true,
+  "main": "./src/theme.css",
+  "exports": {
+    ".": "./src/theme.css"
+  },
+  "nx": {
+    "name": "shared-config-theme"
+  },
+  "dependencies": {}
+}

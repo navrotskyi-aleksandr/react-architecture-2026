@@ -1,6 +1,7 @@
 packages:
   - 'apps/*'
   - 'packages/shared/*'
+  - 'packages/shared/config/*'
 allowBuilds:
   '@swc/core': true
   nx: true

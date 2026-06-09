@@ -1,5 +1,7 @@
 @import 'tailwindcss';
+@import '@react-architecture-2026/shared-config-theme';
 
 /* nx-tailwind-sources:start */
+@source "../../../packages/shared/config/theme";
 /* nx-tailwind-sources:end */
 /* You can add global styles to this file, and also import other style files */
