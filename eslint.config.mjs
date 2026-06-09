@@ -35,7 +35,11 @@ export default [
             },
             {
               sourceTag: 'type:app',
-              onlyDependOnLibsWithTags: ['type:feature', 'type:util'],
+              onlyDependOnLibsWithTags: [
+                'type:feature',
+                'type:util',
+                'type:config',
+              ],
             },
             {
               sourceTag: 'type:data-access',
@@ -48,6 +52,10 @@ export default [
                 'type:util',
                 'type:ui',
               ],
+            },
+            {
+              sourceTag: 'type:config',
+              onlyDependOnLibsWithTags: ['type:config'],
             },
             {
               sourceTag: 'type:util',
