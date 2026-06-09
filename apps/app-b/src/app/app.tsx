@@ -1,12 +1,8 @@
-import NxWelcome from './nx-welcome';
-
-import { Route, Routes, Link } from 'react-router-dom';
+import { Link, Route, Routes } from 'react-router-dom';
 
 export function App() {
   return (
     <div>
-      <NxWelcome title="@react-architecture-2026/app-b" />
-
       {/* START: routes */}
       {/* These routes and navigation have been generated for you */}
       {/* Feel free to move and update them to fit your needs */}

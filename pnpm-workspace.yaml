@@ -9,3 +9,4 @@ catalog:
   react: '^19.0.0'
   react-dom: '^19.0.0'
   react-router-dom: '6.30.3'
+  '@juristr/nx-tailwind-sync': '0.0.9'

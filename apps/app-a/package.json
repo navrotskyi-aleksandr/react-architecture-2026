@@ -4,5 +4,19 @@
   "private": true,
   "dependencies": {
     "@react-architecture-2026/shared-ui": "workspace:*"
+  },
+  "nx": {
+    "targets": {
+      "build": {
+        "syncGenerators": [
+          "@juristr/nx-tailwind-sync:source-directives"
+        ]
+      },
+      "dev": {
+        "syncGenerators": [
+          "@juristr/nx-tailwind-sync:source-directives"
+        ]
+      }
+    }
   }
 }

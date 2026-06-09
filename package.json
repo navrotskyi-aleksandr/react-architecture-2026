@@ -5,6 +5,7 @@
   "scripts": {},
   "private": true,
   "dependencies": {
+    "@juristr/nx-tailwind-sync": "catalog:",
     "react": "catalog:",
     "react-dom": "catalog:",
     "react-router-dom": "catalog:"

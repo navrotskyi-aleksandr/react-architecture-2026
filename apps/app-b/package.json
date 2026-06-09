@@ -1,5 +1,19 @@
 {
   "name": "@react-architecture-2026/app-b",
   "version": "0.0.1",
-  "private": true
+  "private": true,
+  "nx": {
+    "targets": {
+      "build": {
+        "syncGenerators": [
+          "@juristr/nx-tailwind-sync:source-directives"
+        ]
+      },
+      "dev": {
+        "syncGenerators": [
+          "@juristr/nx-tailwind-sync:source-directives"
+        ]
+      }
+    }
+  }
 }

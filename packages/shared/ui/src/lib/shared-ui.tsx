@@ -1,6 +1,6 @@
 export function SharedUi() {
   return (
-    <div>
+    <div className="border p-4">
       <h1>Welcome to SharedUi!</h1>
     </div>
   );
